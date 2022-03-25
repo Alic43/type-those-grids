@@ -9,6 +9,7 @@ html {
 main {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
   grid-template-areas:
   "box1 box1 box1"
   "box1 box1 box1"
@@ -16,30 +17,30 @@ main {
   "box5 box6 box7"
 }
 
-img:first-child {
+figure {
   grid-area: box1;
 }
 
-img:nth-child(2) {
+.first {
   grid-area: box2;
 }
 
-img:nth-child(3) {
+.second {
   grid-area: box3;
 }
 
-img:nth-child(4) {
+.third {
   grid-area: box4;
 }
 
-h2:nth-child(1) .temple {
+h2:nth-child(1), .temple {
   grid-area: box5;
 }
 
-h2:nth-child(2) .colossus {
+h2:nth-child(2), .colossus {
   grid-area: box6;
 }
 
-h2:nth-child(3) .garden {
+h2:nth-child(3), .garden {
   grid-area: box7;
 }
