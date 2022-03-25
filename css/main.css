@@ -1,0 +1,37 @@
+html {
+  box-sizing: border-box;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+main {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-areas:
+  "box1 box1 box1"
+  "box1 box1 box1"
+  "box2 box3 box4"
+  "box5 box6 box7"
+}
+
+img:first-child {
+  grid-area: box1;
+}
+
+img:nth-child(2) {
+  grid-area: box2;
+}
+
+img:nth-child(3) {
+  grid-area: box3;
+}
+
+img:nth-child(4) {
+  grid-area: box4;
+}
+
+h2:nth-child(1) .temple {
+  grid-area: box5;
+}
