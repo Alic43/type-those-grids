@@ -17,8 +17,21 @@ main {
   "box5 box6 box7"
 }
 
+img {
+  width: 100%;
+}
+
 figure {
   grid-area: box1;
+  width: 100%;
+}
+
+p {
+  grid-column: 1;
+  grid-row: 2;
+  z-index: 1;
+  align-self: end;
+
 }
 
 .first {
