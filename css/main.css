@@ -33,14 +33,14 @@ figure {
   grid-area: box4;
 }
 
-h2:nth-child(1), .temple {
+.temple {
   grid-area: box5;
 }
 
-h2:nth-child(2), .colossus {
+.colossus {
   grid-area: box6;
 }
 
-h2:nth-child(3), .garden {
+.garden {
   grid-area: box7;
 }
