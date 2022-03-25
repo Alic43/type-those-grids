@@ -8,11 +8,12 @@ html {
 
 body {
   font-family: Merriweather;
-  margin: 1rem;
+    margin: 1rem;
 }
 
 main {
   display: grid;
+  grid-column-gap: .75rem;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr 1fr 1fr;
   grid-template-areas:
@@ -20,6 +21,10 @@ main {
   "box1 box1 box1"
   "box2 box3 box4"
   "box5 box6 box7"
+}
+
+header {
+  font-size: 1.8;
 }
 
 img {
