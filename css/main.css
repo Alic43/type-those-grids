@@ -1,5 +1,7 @@
 html {
   box-sizing: border-box;
+  font-family: 'Merriweather', serif;
+  line-height: 1.5rem;
 }
 
 *, *::before, *::after {
@@ -7,8 +9,7 @@ html {
 }
 
 body {
-  font-family: Merriweather;
-    margin: 1rem;
+  margin: 1rem;
 }
 
 main {
@@ -16,11 +17,11 @@ main {
   grid-column-gap: .75rem;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr 1fr 1fr;
-  grid-template-areas:
-  "box1 box1 box1"
-  "box1 box1 box1"
-  "box2 box3 box4"
-  "box5 box6 box7"
+    grid-template-areas:
+    "box1 box1 box1"
+    "box1 box1 box1"
+    "box2 box3 box4"
+    "box5 box6 box7";
 }
 
 header {
